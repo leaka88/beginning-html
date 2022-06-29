@@ -1,2 +1,2 @@
 # beginning-html
-This repo is used for writing coder to learn html
+This repo is used for writing code to learn html
