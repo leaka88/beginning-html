@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Contact</title>
+</head>
+<style>
+  div.a{text-align: center;}
+  body {
+    background-color: plum;
+  }
+</style>
+<body>
+  <header>
+    <nav>
+      <a href="HTMLindex.html" target="_blank">Index</a>
+      <a href="HTMLabout.html" target="_blank">About</a>
+      <a href="HTMLWorkHistory.html" target="_blank">Work History</a>
+      <a href="HTMLcontact.html" target="_blank">Contact</a>
+      <a href="HTMLmisc.html" target="_blank">Miscellaneous</a>
+    </nav>
+    <h2>Leanna Rudolph</h2>
+    <h4>lrudolph@pivottechschool.com</h4>
+  </header>
+  <section>
+    <form action="/action_page.php">
+      <label for="fullname">Full name:</label><br>
+      <input type="text" id="fullname" name="fullname" value=""><br><br>
+      <label for="email">Enter email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="phone">Phone number:</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" style="height:100px; width:300px">
+      </textarea><br><br>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <footer>
+    <div class="a">
+      <h5>HTMLcontact.html</h5>
+    </div>
+  </footer>
+</body>
+</html>
